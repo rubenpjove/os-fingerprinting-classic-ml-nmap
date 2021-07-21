@@ -1,0 +1,1413 @@
+2N|embedded||specialized
+2Wire|embedded||broadband router
+2Wire|embedded||WAP
+3Com|embedded||broadband router
+3Com|embedded||firewall
+3Com|embedded||router
+3Com|embedded||switch
+3Com|embedded||VoIP adapter
+3Com|embedded||WAP
+3M|embedded||specialized
+4G Systems|embedded||WAP
+A-Tec|embedded||storage-misc
+Aastra|embedded||telecom-misc
+Aastra|embedded||VoIP phone
+Aastra|embedded||WAP
+AcBel|embedded||bridge
+Aceex|embedded||broadband router
+Acer|embedded||media device
+Acme Packet|embedded||firewall
+Acorp|embedded||WAP
+Actiontec|embedded||broadband router
+Actiontec|embedded||WAP
+Adaptec|embedded||storage-misc
+ADIC|embedded||storage-misc
+Adtran|AOS|10.X|switch
+Adtran|AOS|18.X|switch
+Adtran|embedded||router
+Adtran|embedded||specialized
+Adva Optical|embedded||router
+Advanced Illumination|embedded||specialized
+Aerohive|HiveOS|3.X|WAP
+Aerohive|HiveOS|5.X|WAP
+Aerohive|HiveOS|6.X|WAP
+Aerohive|HiveOS|7.X|WAP
+Aethra|embedded||broadband router
+Aethra|embedded||media device
+Agfa|embedded||printer
+Airaya|embedded||bridge
+Airlink101|embedded||print server
+AirLive|embedded||WAP
+AirMagnet|embedded||specialized
+Airnet|embedded||WAP
+AirSpan|embedded||WAP
+Airvana|embedded||specialized
+AKCP|embedded||specialized
+Alaxala|embedded||switch
+Alcatel|embedded||broadband router
+Alcatel|embedded||PBX
+Alcatel|embedded||switch
+Alcatel|embedded||VoIP phone
+Alcatel|embedded||WAP
+Alcatel-Lucent|embedded||PBX
+Alcatel-Lucent|embedded||switch
+Alcatel-Lucent|SR OS|9.X|router
+Alice|embedded||VoIP phone
+Allen-Bradley|embedded||specialized
+Allied Data|embedded||broadband router
+Allied Telesis|AlliedWare||router
+Allied Telesis|embedded||switch
+Allied Telesyn|AlliedWare||router
+Allied Telesyn|embedded||switch
+Allnet|embedded||webcam
+Allworx|embedded||VoIP phone
+Alvarion|embedded||WAP
+Amazon|embedded||media device
+Ambit|embedded||broadband router
+Amiga|AmigaOS|3.X|general purpose
+AMX|embedded||media device
+Anue|embedded||specialized
+APC|AOS|1.X|power-device
+APC|AOS|2.X|power-device
+APC|AOS|3.X|power-device
+APC|AOS|5.X|power-device
+APC|embedded||power-device
+APC|embedded||specialized
+Apple|A/UX|3.X|general purpose
+Apple|Apple TV|5.X|media device
+Apple|embedded||storage-misc
+Apple|embedded||WAP
+Apple|iOS|10.X|phone
+Apple|iOS|11.X|phone
+Apple|iOS|4.X|general purpose
+Apple|iOS|4.X|media device
+Apple|iOS|4.X|phone
+Apple|iOS|5.X|media device
+Apple|iOS|5.X|phone
+Apple|iOS|6.X|media device
+Apple|iOS|6.X|phone
+Apple|iOS|7.X|media device
+Apple|iOS|7.X|phone
+Apple|iOS|8.X|phone
+Apple|iOS|9.X|general purpose
+Apple|iOS|9.X|phone
+Apple|iPhone OS|1.X|media device
+Apple|iPhone OS|1.X|phone
+Apple|iPhone OS|2.X|media device
+Apple|iPhone OS|2.X|phone
+Apple|iPhone OS|3.X|general purpose
+Apple|iPhone OS|3.X|media device
+Apple|iPhone OS|3.X|phone
+Apple|iPhone OS||phone
+Apple|Mac OS|8.X|general purpose
+Apple|Mac OS|9.X|general purpose
+Apple|Mac OS X|10.1.X|general purpose
+Apple|Mac OS X|10.2.X|general purpose
+Apple|Mac OS X|10.3.X|general purpose
+Apple|Mac OS X|10.4.X|general purpose
+Apple|Mac OS X|10.5.X|general purpose
+Apple|Mac OS X|10.6.X|general purpose
+Apple|Mac OS X|10.7.X|general purpose
+Apple|Mac OS X|10.7.X|media device
+Apple|macOS|10.12.X|general purpose
+Apple|macOS|10.13.X|general purpose
+Apple|NetBSD|4.X|general purpose
+Apple|NetBSD|4.X|storage-misc
+Apple|NetBSD|4.X|WAP
+Apple|NetBSD||general purpose
+Apple|OS X|10.10.X|general purpose
+Apple|OS X|10.11.X|general purpose
+Apple|OS X|10.8.X|general purpose
+Apple|OS X|10.9.X|general purpose
+ARCA|embedded||specialized
+Arcor|embedded||broadband router
+Areca|embedded||storage-misc
+Argon|embedded||media device
+Argosy|embedded||storage-misc
+Arris|embedded||broadband router
+Arris|embedded||router
+Arris|embedded||WAP
+Aruba|ArubaOS|3.X|remote management
+Aruba|ArubaOS|6.X|WAP
+Aruba|embedded||WAP
+Asmax|embedded||print server
+Asus|embedded||broadband router
+Asus|embedded||media device
+Asus|embedded||phone
+Asus|embedded||router
+Asus|embedded||WAP
+AT&T|embedded||router
+AT&T|embedded||WAP
+Atari|Unix|SVR4|general purpose
+Atcom|embedded||VoIP phone
+AudioCodes|embedded||VoIP adapter
+AudioControl|embedded||media device
+Avaya|Communication Manager||telecom-misc
+Avaya|embedded||switch
+Avaya|embedded||telecom-misc
+Avaya|embedded||VoIP adapter
+AVM|embedded||broadband router
+AVM|embedded||WAP
+AVM|FritzOS|6.X|broadband router
+AVM|FritzOS|6.X|WAP
+Avocent|embedded||remote management
+Avocent|embedded||specialized
+Avocent|embedded||terminal server
+AVtech|embedded||specialized
+AVtech|embedded||webcam
+Axcient|embedded||storage-misc
+AXIS|embedded||print server
+AXIS|embedded||specialized
+AXIS|embedded||webcam
+AzBox|embedded||media device
+Barracuda Networks|embedded||firewall
+Barracuda Networks|embedded||load balancer
+Barracuda Networks|embedded||security-misc
+Barrelfish|Barrelfish||general purpose
+Basler|embedded||webcam
+Bay Networks|embedded||bridge
+Bay Networks|embedded||switch
+BeaconMedaes|embedded||specialized
+Beat|embedded||media device
+BECK|embedded||specialized
+Belkin|embedded||power-device
+Belkin|embedded||specialized
+Belkin|embedded||terminal
+Belkin|embedded||WAP
+Bell Labs|Plan 9|4th edition|general purpose
+Bell Labs|Plan 9||general purpose
+Billion|embedded||broadband router
+Billion|embedded||WAP
+BinTec|embedded||broadband router
+BinTec|embedded||router
+BinTec|embedded||WAP
+Blackboard|embedded||bridge
+Blackboard|embedded||specialized
+BlackBox|embedded||media device
+Blue Coat|embedded||proxy server
+Blue Coat|SGOS|3.X|proxy server
+Blue Coat|SGOS|4.X|proxy server
+Blue Coat|SGOS|5.X|proxy server
+Blue Coat|SGOS|6.X|proxy server
+BlueArc|embedded||storage-misc
+Bluebird|SuperDOS||general purpose
+Bomara|embedded||specialized
+Bosch|embedded||security-misc
+Bosch|embedded||webcam
+Bose|embedded||media device
+Boundless Technologies|embedded||terminal
+Bowers & Wilkins|embedded||media device
+British Gas|embedded||storage-misc
+BroadMax Technology|embedded||broadband router
+Brocade|embedded||switch
+Brocade|Fabric OS|4.X|switch
+Brocade|Fabric OS|7.X|switch
+Brocade|IronWare|6.X|router
+Brother|embedded||print server
+Brother|embedded||printer
+BSD|BSD|2.X|general purpose
+BSD|BSD|4.1|general purpose
+BSD|BSD|4.3|general purpose
+BSDI|BSD/OS|4.X|general purpose
+BT|embedded||media device
+Buffalo|embedded||storage-misc
+Buffalo|embedded||switch
+Burny|embedded||specialized
+Bush|embedded||media device
+C-Nav|embedded||specialized
+cab|embedded||printer
+Cabletron|embedded||switch
+CAEN|embedded||power-device
+Caldera|Open Unix|7.X|general purpose
+Calix|embedded||switch
+Cameo|embedded||WAP
+Canon|embedded||printer
+Canon|embedded||webcam
+Casio|embedded||specialized
+Cayman Systems|embedded||bridge
+Ceedtec|embedded||WAP
+Check Point|embedded||firewall
+Check Point|GAiA OS||firewall
+Check Point|IPSO|4.X|firewall
+Chip PC|embedded||terminal
+CipherLab|embedded||specialized
+Cisco|ACNS|5.X|proxy server
+Cisco|AireOS|8.X|remote management
+Cisco|AireOS||remote management
+Cisco|ASA|7.X|firewall
+Cisco|ASA|8.X|firewall
+Cisco|ASA|9.X|firewall
+Cisco|AsyncOS|7.X|firewall
+Cisco|AsyncOS|8.X|security-misc
+Cisco|AsyncOS|9.X|security-misc
+Cisco|CatOS|4.X|switch
+Cisco|CatOS|6.X|switch
+Cisco|CatOS|7.X|switch
+Cisco|CatOS|8.X|switch
+Cisco|embedded||broadband router
+Cisco|embedded||firewall
+Cisco|embedded||general purpose
+Cisco|embedded||load balancer
+Cisco|embedded||media device
+Cisco|embedded||PBX
+Cisco|embedded||proxy server
+Cisco|embedded||remote management
+Cisco|embedded||router
+Cisco|embedded||specialized
+Cisco|embedded||switch
+Cisco|embedded||VoIP adapter
+Cisco|embedded||VoIP phone
+Cisco|embedded||WAP
+Cisco|IOS|10.X|switch
+Cisco|IOS|11.X|router
+Cisco|IOS|11.X|switch
+Cisco|IOS|12.X|broadband router
+Cisco|IOS|12.X|router
+Cisco|IOS|12.X|specialized
+Cisco|IOS|12.X|switch
+Cisco|IOS|12.X|WAP
+Cisco|IOS|15.X|router
+Cisco|IOS|15.X|switch
+Cisco|IOS|15.X|WAP
+Cisco|IOS||switch
+Cisco|IOS XE|2.X|router
+Cisco|IOS XE||router
+Cisco|IOS XR|3.X|router
+Cisco|IOS XR|4.X|router
+Cisco|IOS XR|5.X|router
+Cisco|IOS-XE|15.X|router
+Cisco|NX-OS|4.X|switch
+Cisco|NX-OS|5.X|switch
+Cisco|NX-OS|6.X|switch
+Cisco|NX-OS|7.X|switch
+Cisco|NX-OS||switch
+Cisco|PIX OS|6.X|firewall
+Cisco|SAN-OS|3.X|switch
+Citrix|embedded||load balancer
+Citrix|embedded||proxy server
+Citrix|XenServer|5.X|specialized
+Citrix|XenServer|6.X|specialized
+CMI|embedded||terminal
+Cobalt|embedded||general purpose
+Cognex|embedded||specialized
+Comau|embedded||specialized
+Compal|embedded||broadband router
+Compaq|embedded||WAP
+Compaq|Tru64 UNIX|4.X|general purpose
+Compaq|Tru64 UNIX|5.X|general purpose
+Comtrend|embedded||bridge
+Comtrend|embedded||broadband router
+Comtrend|embedded||VoIP adapter
+Comtrend|embedded||WAP
+Conceptronic|embedded||storage-misc
+Control4|embedded||remote management
+CoRAID|embedded||storage-misc
+Coyote Point|embedded||load balancer
+Cray|UNICOS|2.X|general purpose
+Crestron|2-Series||specialized
+Crestron|embedded||media device
+Crestron|embedded||specialized
+CyanogenMod|CyanogenMod|11.X|phone
+CyanogenMod|CyanogenMod|12.X|phone
+Cyberoam|embedded||firewall
+Cymphonix|embedded||firewall
+D-Link|embedded||broadband router
+D-Link|embedded||firewall
+D-Link|embedded||print server
+D-Link|embedded||storage-misc
+D-Link|embedded||switch
+D-Link|embedded||VoIP adapter
+D-Link|embedded||VoIP phone
+D-Link|embedded||WAP
+D-Link|embedded||webcam
+Data General|DG/UX|4.X|general purpose
+Datalogic|embedded||specialized
+Daysequerra|embedded||media device
+DEC|DECserver|3.X|general purpose
+DEC|Digital UNIX|4.X|general purpose
+DEC|Digital UNIX|5.X|general purpose
+DEC|OpenVMS|5.X|general purpose
+DEC|OpenVMS|7.X|general purpose
+DEC|OSF/1|4.X|general purpose
+DEC|OSF/1|5.X|general purpose
+DEC|RSX-11M-PLUS|4.X|general purpose
+DEC|RSX-11M-PLUS|5.X|general purpose
+DEC|RSX-11M-PLUS||general purpose
+DEC|TOPS-20|7.X|general purpose
+DEC|TOPS-20||general purpose
+DEC|Ultrix|4.X|general purpose
+Decru|embedded||firewall
+Dedicated Micros|embedded||media device
+Dell|DRAC|5|remote management
+Dell|embedded||firewall
+Dell|embedded||printer
+Dell|embedded||remote management
+Dell|embedded||storage-misc
+Dell|embedded||switch
+Dell|iDRAC|6|remote management
+Dell|NetBSD|1.X|general purpose
+Dell|NetBSD|1.X|storage-misc
+Dell|Network Operating System|6.X|switch
+Denon|embedded||media device
+Denver Electronics|embedded||webcam
+Develop|embedded||printer
+Dick Smith Electronics|embedded||broadband router
+Digi|embedded||bridge
+Digi|embedded||remote management
+Digi|embedded||specialized
+Digi|embedded||WAP
+Digi|NET+OS|7|specialized
+Digital Loggers, Inc.|embedded||specialized
+Digitus|embedded||print server
+Digium|embedded||VoIP phone
+DirecTV|embedded||media device
+Dish|embedded||media device
+DMP|embedded||security-misc
+Dolby|embedded||media device
+DragonFly BSD|DragonFly BSD|1.X|general purpose
+DragonFly BSD|DragonFly BSD|2.X|general purpose
+DragonFly BSD|DragonFly BSD|3.X|general purpose
+DragonFly BSD|DragonFly BSD|4.X|general purpose
+DragonWave|embedded||WAP
+Draytek|embedded||security-misc
+DrayTek|embedded||WAP
+Draytek|embedded||WAP
+Drayton|embedded||specialized
+Dream|embedded||media device
+Drobo|embedded||storage-misc
+DTE|embedded||specialized
+DVTel|embedded||webcam
+DYMO|embedded||printer
+EasyPath|embedded||switch
+Eaton|embedded||power-device
+eCosCentric|eCos|2.0|broadband router
+eCosCentric|eCos|2.0|switch
+eCosCentric|eCos|2.X|broadband router
+eCosCentric|eCos|2.X|switch
+eCosCentric|eCos|2.X|WAP
+eCosCentric|eCos|3.X|switch
+eCosCentric|eCos||switch
+Efficient Networks|embedded||broadband router
+Eicon|embedded||proxy server
+Elfiq|EOS|3.X|load balancer
+Elk|embedded||bridge
+Elsag Datamat|embedded||broadband router
+Ember|embedded||specialized
+EMC|embedded||storage-misc
+EMC|VNX OE for File|7.X|storage-misc
+Emerson|embedded||specialized
+Encore|embedded||WAP
+Endian|embedded||firewall
+Enerdis|embedded||power-device
+EnGenius|embedded||WAP
+Engetron|embedded||power-device
+Enistic|embedded||WAP
+Enlogic|embedded||specialized
+Enterasys|embedded||firewall
+Enterasys|embedded||router
+Enterasys|embedded||switch
+Enterasys|embedded||WAP
+Epson|embedded||media device
+Epson|embedded||print server
+Epson|embedded||printer
+Ericsson|embedded||PBX
+ESI|embedded||VoIP adapter
+Espressif|embedded||specialized
+Essentia|embedded||specialized
+ETH Zurich|Bluebottle||general purpose
+EtherWerX|embedded||router
+Exabyte|embedded||storage-misc
+Excito|embedded||storage-misc
+Express Logic|ThreadX|4.X|WAP
+Express Logic|ThreadX|G3.X|broadband router
+Express Logic|ThreadX||VoIP adapter
+Exterity|embedded||media device
+Extreme Networks|ExtremeWare|7.X|switch
+Extreme Networks|ExtremeXOS|12.X|switch
+Extreme Networks|ExtremeXOS|15.X|switch
+Extreme Networks|ExtremeXOS|16.X|switch
+F5 Networks|BSD/OS|4.X|load balancer
+F5 Networks|embedded||firewall
+F5 Networks|embedded||load balancer
+F5 Networks|TMOS|11.1.X|load balancer
+F5 Networks|TMOS|11.4.X|firewall
+F5 Networks|TMOS|11.4.X|load balancer
+F5 Networks|TMOS|11.6.X|load balancer
+F5 Networks|TMOS|9.1.X|load balancer
+Fatek|embedded||specialized
+FireBrick|embedded||firewall
+Force10|FTOS|1.X|switch
+Force10|SFTOS|2.X|switch
+FORE Systems|embedded||switch
+Fortinet|embedded||firewall
+Fortinet|embedded||switch
+Fortinet|FortiOS|5.X|security-misc
+Foscam|embedded||webcam
+Foundry|embedded||load balancer
+Foundry|embedded||proxy server
+Foundry|embedded||switch
+Foundry|IronWare|2.X|switch
+Foundry|IronWare|3.X|switch
+Foundry|IronWare|4.X|switch
+Foundry|IronWare|5.X|router
+Foundry|IronWare|7.X|switch
+Free|embedded||broadband router
+FreeBSD|FreeBSD|10.X|general purpose
+FreeBSD|FreeBSD|10.X|storage-misc
+FreeBSD|FreeBSD|11.X|general purpose
+FreeBSD|FreeBSD|12.X|general purpose
+FreeBSD|FreeBSD|2.X|general purpose
+FreeBSD|FreeBSD|3.X|general purpose
+FreeBSD|FreeBSD|4.X|firewall
+FreeBSD|FreeBSD|4.X|general purpose
+FreeBSD|FreeBSD|5.X|general purpose
+FreeBSD|FreeBSD|6.X|firewall
+FreeBSD|FreeBSD|6.X|general purpose
+FreeBSD|FreeBSD|6.X|storage-misc
+FreeBSD|FreeBSD|7.X|general purpose
+FreeBSD|FreeBSD|7.X|storage-misc
+FreeBSD|FreeBSD|8.X|firewall
+FreeBSD|FreeBSD|8.X|general purpose
+FreeBSD|FreeBSD|8.X|storage-misc
+FreeBSD|FreeBSD|9.X|general purpose
+FreeBSD|FreeBSD|9.X|storage-misc
+Freecom|embedded||storage-misc
+FreeNAS|FreeNAS|0.X|storage-misc
+FreeNAS|FreeNAS|9.X|storage-misc
+FreeNAS|FreeNAS||storage-misc
+Fronius|embedded||power-device
+Frontier Silicon|embedded||media device
+Fuji|embedded||specialized
+Fuji Xerox|embedded||printer
+Fujian Ruijie|embedded||switch
+Fujitsu|embedded||storage-misc
+Fujitsu Siemens|BS2000/OSD||general purpose
+Fujitsu Siemens|embedded||general purpose
+Fujitsu Siemens|embedded||specialized
+Fujitsu Siemens|embedded||storage-misc
+Fujitsu Siemens|ReliantUNIX||general purpose
+Funkwerk|embedded||broadband router
+Funkwerk|embedded||WAP
+GalaxyMetalGear|embedded||storage-misc
+Gargoyle|Gargoyle|1.X|broadband router
+Garmin|embedded||webcam
+Geist|embedded||specialized
+Gemtek|embedded||WAP
+General Dynamics|embedded||specialized
+Generex|embedded||power-device
+Gennet|embedded||WAP
+Genua|embedded||firewall
+George Robotics|Micropython|1.X|specialized
+Geovision|embedded||webcam
+GlobespanVirata|embedded||broadband router
+GNU|Hurd||general purpose
+Google|Android|1.X|phone
+Google|Android|2.X|phone
+Google|Android|3.X|phone
+Google|Android|4.0.X|phone
+Google|Android|4.1.X|media device
+Google|Android|4.1.X|phone
+Google|Android|4.1.X|VoIP phone
+Google|Android|4.2.X|media device
+Google|Android|4.2.X|phone
+Google|Android|4.3.X|phone
+Google|Android|4.4.X|phone
+Google|Android|4.X|phone
+Google|Android|5.X|media device
+Google|Android|5.X|phone
+Google|Android|6.X|phone
+Google|Android|7.X|phone
+Google|Android||media device
+Google|Android||VoIP phone
+Google|embedded||media device
+Google|embedded||specialized
+GoPro|embedded||webcam
+Grace Digital|embedded||media device
+Grandstream|embedded||VoIP adapter
+Grandstream|embedded||VoIP phone
+Green Hills|embedded||specialized
+Green Hills|RTOS||specialized
+H3C|Comware|3.X|switch
+H3C|Comware|5.X|switch
+Haiku|Haiku|R1|general purpose
+Hamlet|embedded||print server
+Harris|embedded||specialized
+Hawking|embedded||print server
+Hay Systems|embedded||WAP
+Head Digital|embedded||media device
+Henry Electronic|embedded||security-misc
+HID|embedded||firewall
+High-Flying|embedded||specialized
+Hikvision|embedded||specialized
+Hioki|embedded||specialized
+Hirschmann|embedded||switch
+Hitron|embedded||broadband router
+Hotway|embedded||storage-misc
+HP|Comware|7.X|switch
+HP|embedded||print server
+HP|embedded||printer
+HP|embedded||remote management
+HP|embedded||router
+HP|embedded||storage-misc
+HP|embedded||switch
+HP|embedded||WAP
+HP|HP-UX|09.X|general purpose
+HP|HP-UX|10.X|general purpose
+HP|HP-UX|11.X|general purpose
+HP|iLO|2.X|remote management
+HP|iLO|3.X|remote management
+HP|iLO|4.X|remote management
+HP|iLO||remote management
+HP|MPE/iX|7.X|general purpose
+HP|NonStop OS||general purpose
+HP|NonStop OS|H06.X|general purpose
+HP|Onboard Administrator|4.X|remote management
+HP|OpenVMS|6.X|general purpose
+HP|OpenVMS|7.X|general purpose
+HP|OpenVMS|8.X|general purpose
+HP|Tru64 UNIX|5.X|general purpose
+Huawei|embedded||broadband router
+Huawei|embedded||firewall
+Huawei|embedded||router
+Huawei|embedded||switch
+Huawei|embedded||WAP
+Huawei|VRP|3.X|broadband router
+Huawei|VRP|3.X|switch
+Huawei|VRP|5.X|switch
+Huawei|VRP|8.X|broadband router
+HW group|embedded||specialized
+Hybertone|embedded||VoIP adapter
+IBM|4690 OS||specialized
+IBM|AIX|4.X|general purpose
+IBM|AIX|5.X|general purpose
+IBM|AIX|6.X|general purpose
+IBM|AIX|7.X|general purpose
+IBM|embedded||printer
+IBM|embedded||proxy server
+IBM|embedded||remote management
+IBM|embedded||specialized
+IBM|embedded||storage-misc
+IBM|embedded||switch
+IBM|i|6.X|general purpose
+IBM|i|7.X|general purpose
+IBM|i5/OS|V5|general purpose
+IBM|OS/2|3.X|general purpose
+IBM|OS/2|4.X|general purpose
+IBM|OS/390||general purpose
+IBM|OS/390|V2|general purpose
+IBM|OS/400|V4|general purpose
+IBM|OS/400|V5|general purpose
+IBM|z/OS|1.10.X|general purpose
+IBM|z/OS|1.11.X|general purpose
+IBM|z/OS|1.12.X|general purpose
+IBM|z/OS|1.13.X|general purpose
+IBM|z/OS|1.4.X|general purpose
+IBM|z/OS|1.6.X|general purpose
+IBM|z/OS|1.7.X|general purpose
+IBM|z/OS|1.8.X|general purpose
+IBM|z/OS|1.9.X|general purpose
+IBM|z/OS|10|general purpose
+IBM|z/OS|2.1.X|general purpose
+IBM|z/OS|2.2.X|general purpose
+IBM|z/OS||general purpose
+IBM|z/VM|4.X|general purpose
+IBM|z/VM|5.X|general purpose
+IBM|z/VM||general purpose
+Icom|embedded||specialized
+Icy Box|embedded|2.6.X|storage-misc
+iDirect|embedded||specialized
+iDirect|embedded||WAP
+IEI|embedded||bridge
+IGEL|embedded||terminal
+IHome|embedded||specialized
+illumos|OpenIndiana||general purpose
+Imperva|SecureSphere||security-misc
+Infoblox|embedded||specialized
+Infomir|embedded||media device
+Infrant|RAIDiator|3.X|storage-misc
+Infrant|RAIDiator|4.X|storage-misc
+Inova|embedded||specialized
+Instar|embedded||webcam
+Intel|embedded||switch
+Interbell|embedded||VoIP phone
+Interflex|embedded||specialized
+Intermec|embedded||PDA
+Intermec|embedded||printer
+Interpeak|IPCOM||specialized
+Intertex|embedded||broadband router
+Intracom|embedded||broadband router
+Inventel|embedded||WAP
+IO-Data|embedded||WAP
+IOGear|embedded||print server
+Iomega|embedded||storage-misc
+ION Networks|embedded||firewall
+IPAD Owners Association|IPAD-OS||specialized
+IPCop|IPCop|1.X|firewall
+IPCop|IPCop|2.X|firewall
+IPCop|embedded||firewall
+IPFire|IPFire|2.X|firewall
+ipTIME|embedded||WAP
+iPXE|iPXE|1.X|specialized
+iRobot|embedded||specialized
+IronPort|AsyncOS|4.X|firewall
+IronPort|AsyncOS|6.X|firewall
+IronPort|AsyncOS|7.X|firewall
+Isilon|OneFS||storage-misc
+Iskratel|embedded||broadband router
+ISS|embedded||firewall
+ITW|embedded||specialized
+Joyent|SmartOS||general purpose
+JTEKT|embedded||specialized
+Juniper|embedded||firewall
+Juniper|embedded||router
+Juniper|IVE OS|7.X|firewall
+Juniper|JUNOS|10.X|firewall
+Juniper|JUNOS|10.X|router
+Juniper|JUNOS|10.X|switch
+Juniper|JUNOS|11.X|router
+Juniper|JUNOS|12.X|firewall
+Juniper|JUNOS|12.X|router
+Juniper|JUNOS|12.X|switch
+Juniper|JUNOS|13.X|router
+Juniper|JUNOS|13.X|switch
+Juniper|JUNOS|5.X|proxy server
+Juniper|JUNOS|7.X|router
+Juniper|JUNOS|8.X|router
+Juniper|JUNOS|9.X|router
+Juniper|JUNOS|9.X|switch
+Juniper|JUNOS||router
+KA9Q|KA9Q||specialized
+Kaba-Benzing|embedded||specialized
+Kaiomy|embedded||WAP
+Kapsch|embedded||specialized
+Kartina|embedded||media device
+KCorp|embedded||WAP
+Kemp|embedded||load balancer
+Keyence|embedded||specialized
+Kodak|embedded||printer
+Kongsberg Seatex|embedded||specialized
+Konica Minolta|embedded||printer
+Koukaam|embedded||power-device
+Kronos|embedded||specialized
+KW-Software|ProConOS||specialized
+Kyocera|embedded||print server
+Kyocera|embedded||printer
+LaCie|embedded||storage-misc
+LaCrosse|embedded||specialized
+Lancom|embedded||WAP
+Lancom|LCOS|6.X|broadband router
+Lancom|LCOS|7.X|broadband router
+Lancom|LCOS|7.X|WAP
+Lancom|LCOS|8.X|specialized
+Lancom|LCOS|8.X|VoIP adapter
+Lancom|LCOS|9.X|specialized
+Lancom|LCOS||WAP
+Lanier|embedded||printer
+Lanier|embedded||specialized
+Lantronix|embedded||bridge
+Lantronix|embedded||print server
+Lantronix|embedded||remote management
+Lantronix|embedded||specialized
+Lantronix|embedded||terminal server
+Lantronix|Evolution OS|5.X|specialized
+Lantronix|Evolution OS||specialized
+Larus|embedded||specialized
+LaSAT|embedded||media device
+Leica|embedded||webcam
+Lenel|embedded||security-misc
+Leolink|embedded||broadband router
+LevelOne|embedded||print server
+LevelOne|embedded||router
+Lexmark|embedded||printer
+LG|embedded||media device
+LG|embedded||PBX
+LG|embedded||storage-misc
+Liebert|embedded||power-device
+Liebert|embedded||remote management
+LifeSize|embedded||media device
+Linksys|embedded||bridge
+Linksys|embedded||broadband router
+Linksys|embedded||router
+Linksys|embedded||storage-misc
+Linksys|embedded||switch
+Linksys|embedded||VoIP adapter
+Linksys|embedded||VoIP phone
+Linksys|embedded||WAP
+Linksys|embedded||webcam
+Linux|Linux|1.0.X|general purpose
+Linux|Linux|2.0.X|general purpose
+Linux|Linux|2.0.X|PBX
+Linux|Linux|2.0.X|router
+Linux|Linux|2.0.X|webcam
+Linux|Linux|2.1.X|media device
+Linux|Linux|2.2.X|general purpose
+Linux|Linux|2.2.X|WAP
+Linux|Linux|2.4.X|broadband router
+Linux|Linux|2.4.X|firewall
+Linux|Linux|2.4.X|general purpose
+Linux|Linux|2.4.X|media device
+Linux|Linux|2.4.X|PBX
+Linux|Linux|2.4.X|PDA
+Linux|Linux|2.4.X|router
+Linux|Linux|2.4.X|specialized
+Linux|Linux|2.4.X|storage-misc
+Linux|Linux|2.4.X|WAP
+Linux|Linux|2.4.X|webcam
+Linux|Linux|2.6.26|router
+Linux|Linux|2.6.X|broadband router
+Linux|Linux|2.6.X|firewall
+Linux|Linux|2.6.X|general purpose
+Linux|Linux|2.6.X|load balancer
+Linux|Linux|2.6.X|media device
+Linux|Linux|2.6.X|PBX
+Linux|Linux|2.6.X|phone
+Linux|Linux|2.6.X|proxy server
+Linux|Linux|2.6.X|remote management
+Linux|Linux|2.6.X|router
+Linux|Linux|2.6.X|security-misc
+Linux|Linux|2.6.X|specialized
+Linux|Linux|2.6.X|storage-misc
+Linux|Linux|2.6.X|switch
+Linux|Linux|2.6.X|telecom-misc
+Linux|Linux|2.6.X|terminal
+Linux|Linux|2.6.X|terminal server
+Linux|Linux|2.6.X|VoIP phone
+Linux|Linux|2.6.X|WAP
+Linux|Linux|2.6.X|webcam
+Linux|Linux|3.X|broadband router
+Linux|Linux|3.X|firewall
+Linux|Linux|3.X|general purpose
+Linux|Linux|3.X|load balancer
+Linux|Linux|3.X|media device
+Linux|Linux|3.X|phone
+Linux|Linux|3.X|router
+Linux|Linux|3.X|specialized
+Linux|Linux|3.X|storage-misc
+Linux|Linux|3.X|switch
+Linux|Linux|3.X|VoIP phone
+Linux|Linux|3.X|WAP
+Linux|Linux|3.X|webcam
+Linux|Linux|4.X|general purpose
+Linux|Linux|4.X|phone
+Linux|Linux|4.X|specialized
+Linux|Linux|4.X|WAP
+Linux|Linux||broadband router
+Linux|Linux||general purpose
+Linux|Linux||media device
+Linux|Linux||printer
+Linux|Linux||proxy server
+Linux|Linux||router
+Linux|Linux||specialized
+Linux|Linux||storage-misc
+Linux|Linux||terminal
+Linux|Linux||WAP
+LogiLink|embedded||storage-misc
+Logitech|embedded||media device
+Logitech|embedded||webcam
+Lorex|embedded||media device
+Lorex|embedded||webcam
+Lucent|ComOS||terminal server
+Luminary Micro|embedded||specialized
+Luxul|embedded||broadband router
+lwIP|lwIP|1.1.X|general purpose
+lwIP|lwIP|1.3.X|general purpose
+lwIP|lwIP|1.4.X|general purpose
+lwIP|lwIP||general purpose
+lwIP|lwIP||specialized
+Lyngsoe|embedded||specialized
+m3|embedded||media device
+Macsense|embedded||media device
+Maipu|embedded||router
+Mapower|embedded||storage-misc
+Marantz|embedded||media device
+mbNet|embedded||specialized
+McAfee|embedded||firewall
+McAfee|embedded||proxy server
+Meinberg|embedded||specialized
+Meru|embedded||router
+Metrix|embedded||specialized
+MGE|embedded||power-device
+MicroNet|embedded||WAP
+Microsoft|embedded||game console
+Microsoft|embedded||media device
+Microsoft|embedded||WAP
+Microsoft|MS-DOS||general purpose
+Microsoft|Windows|10|general purpose
+Microsoft|Windows|10|specialized
+Microsoft|Windows|2000|general purpose
+Microsoft|Windows|2000|security-misc
+Microsoft|Windows|2003|general purpose
+Microsoft|Windows|2008|general purpose
+Microsoft|Windows|2012|general purpose
+Microsoft|Windows|2016|general purpose
+Microsoft|Windows|3.X|general purpose
+Microsoft|Windows|7|general purpose
+Microsoft|Windows|7|specialized
+Microsoft|Windows|8|general purpose
+Microsoft|Windows|8.1|general purpose
+Microsoft|Windows|95|general purpose
+Microsoft|Windows|98|general purpose
+Microsoft|Windows|Embedded Compact 7|general purpose
+Microsoft|Windows|Longhorn|general purpose
+Microsoft|Windows|Me|general purpose
+Microsoft|Windows Mobile|2003|PDA
+Microsoft|Windows Mobile|5.X|general purpose
+Microsoft|Windows Mobile|5.X|PDA
+Microsoft|Windows Mobile|6.X|general purpose
+Microsoft|Windows Mobile|6.X|phone
+Microsoft|Windows|NT|general purpose
+Microsoft|Windows|Phone|phone
+Microsoft|Windows|PocketPC/CE|general purpose
+Microsoft|Windows|PocketPC/CE|media device
+Microsoft|Windows|PocketPC/CE|PDA
+Microsoft|Windows|PocketPC/CE|specialized
+Microsoft|Windows|Vista|general purpose
+Microsoft|Windows|XP|general purpose
+Microsoft|Windows|XP|specialized
+Microsoft|Windows|XP|storage-misc
+Microsoft|Xbox 360||media device
+Microware|OS-9||specialized
+MikroTik|RouterOS|2.X|router
+MikroTik|RouterOS|3.X|router
+MikroTik|RouterOS|4.X|router
+MikroTik|RouterOS|5.X|router
+MikroTik|RouterOS|6.X|router
+MikroTik|RouterOS||router
+Milight|embedded||specialized
+Minix|Minix|2.X|general purpose
+Minix|Minix|3.X|general purpose
+Minolta|embedded||printer
+Mirapoint|embedded||specialized
+Mitel|embedded||VoIP adapter
+Mitel|embedded||VoIP phone
+Mitrastar|embedded||storage-misc
+Mitsubishi|embedded||media device
+Mitsubishi|embedded||specialized
+Modtronix|embedded||specialized
+Motorola|embedded|5.X|broadband router
+Motorola|embedded||bridge
+Motorola|embedded||broadband router
+Motorola|embedded||media device
+Motorola|embedded||remote management
+Motorola|embedded||router
+Motorola|embedded||specialized
+Motorola|embedded||WAP
+Motorola|V/88|4.X|general purpose
+Motorola|WiNG|5.X|WAP
+MOXA|embedded||bridge
+MOXA|embedded||specialized
+MOXA|embedded||terminal server
+MPI Tech|embedded||print server
+MusicianLink|embedded||media device
+Nashuatec|embedded||printer
+National Instruments|embedded||specialized
+nCircle|embedded||specialized
+NCR|embedded||specialized
+NEC|embedded||PBX
+NEC|embedded||printer
+NEC|embedded||router
+Neopost|embedded||specialized
+Ness|embedded||specialized
+Nest|embedded||specialized
+NetApp|Data ONTAP|6.X|storage-misc
+NetApp|Data ONTAP|7.X|storage-misc
+NetApp|Data ONTAP|8.X|storage-misc
+NetApp|Data ONTAP||storage-misc
+NetApp|embedded||proxy server
+NetApp|embedded||storage-misc
+Netasq|embedded||firewall
+NetBSD|NetBSD|1.X|general purpose
+NetBSD|NetBSD|2.X|general purpose
+NetBSD|NetBSD|3.X|general purpose
+NetBSD|NetBSD|4.X|general purpose
+NetBSD|NetBSD|5.X|general purpose
+NetBSD|NetBSD|6.X|general purpose
+NetBSD|NetBSD|7.X|general purpose
+NetBurner|embedded||specialized
+Netcomm|embedded||VoIP adapter
+Netgear|embedded||broadband router
+Netgear|embedded||firewall
+Netgear|embedded||media device
+Netgear|embedded||print server
+Netgear|embedded||router
+Netgear|embedded||security-misc
+Netgear|embedded||storage-misc
+Netgear|embedded||switch
+Netgear|embedded||WAP
+Netgear|RAIDiator|4.X|storage-misc
+Netgem|embedded||media device
+Netopia|embedded||broadband router
+Netopia|SOC OS|7.X|broadband router
+Netopia|SOC OS|7.X|WAP
+NetOptics|embedded||switch
+Network Systems|embedded||firewall
+NetworkAlchemy|embedded||PBX
+NetworksAOK|embedded||firewall
+Neuf|embedded||broadband router
+Newave|embedded||power-device
+Nexenta|Nexenta||general purpose
+Nexsan|embedded||storage-misc
+NexStor|embedded||storage-misc
+NeXT|NEXTSTEP|3.X|general purpose
+NeXT|OPENSTEP|4.X|general purpose
+NeXT|OPENSTEP||general purpose
+Nibe|embedded||specialized
+Nintendo|embedded||game console
+NodeMCU|embedded||specialized
+Nokia|embedded||media device
+Nokia|embedded||phone
+Nokia|IPSO|4.X|firewall
+Nokia|Symbian OS|10.X|phone
+Nokia|Symbian OS|9.X|phone
+Nokia|Symbian OS||phone
+Nomadix|embedded||router
+Nortel|embedded|5.X|switch
+Nortel|embedded||PBX
+Nortel|embedded||router
+Nortel|embedded||switch
+Nortel|embedded||VoIP phone
+Novatel|embedded||WAP
+Novell|NetWare|3.X|general purpose
+Novell|NetWare|4.X|general purpose
+Novell|NetWare|5.X|general purpose
+Novell|NetWare|6.X|general purpose
+NOXON|embedded||media device
+NRG|embedded||printer
+NSFOCUS|embedded||security-misc
+NTI|embedded||specialized
+NTT|embedded||router
+Nut/OS|Nut/OS|4.X|general purpose
+Obihai|embedded||VoIP adapter
+Ocean Signal|embedded||specialized
+Oki|embedded||printer
+Olivetti|embedded||printer
+Olympus|embedded||webcam
+Omron|embedded||specialized
+On Time|RTOS|3.X|specialized
+On Time|RTOS||specialized
+OneAccess|embedded||broadband router
+OnStor|embedded||storage-misc
+OpenBox|embedded||media device
+OpenBSD|OpenBSD|2.X|general purpose
+OpenBSD|OpenBSD|2.X|storage-misc
+OpenBSD|OpenBSD|3.X|general purpose
+OpenBSD|OpenBSD|4.X|firewall
+OpenBSD|OpenBSD|4.X|general purpose
+OpenBSD|OpenBSD|5.X|general purpose
+OpenBSD|OpenBSD|6.X|general purpose
+Opto 22|embedded||specialized
+Oracle|JRockit||general purpose
+Oracle|Solaris|10|general purpose
+Oracle|Solaris|11|general purpose
+Oracle|Virtualbox||bridge
+Oracle|VM Server|3.X|specialized
+Orange|embedded||WAP
+Osmosys|embedded||media device
+OSRAM|embedded||specialized
+Ouya|embedded||game console
+Packard Bell|embedded||storage-misc
+Packet8|embedded||VoIP adapter
+Packeteer|embedded||firewall
+Packeteer|embedded||load balancer
+PacketFront|embedded||switch
+Palmmicro|embedded||VoIP phone
+Palo Alto|embedded||firewall
+Panasas|embedded||storage-misc
+Panasonic|embedded||media device
+Panasonic|embedded||printer
+Panasonic|embedded||webcam
+Papouch|embedded||specialized
+Patton|SmartWare|4.X|VoIP adapter
+Patton|SmartWare|5.X|VoIP adapter
+PC-BSD|PC-BSD|1.X|general purpose
+PC-BSD|PC-BSD|9.X|general purpose
+PCMeasure|embedded||specialized
+Peplink|embedded||router
+Peplink|embedded||WAP
+Perfectone|embedded||VoIP phone
+Perle|embedded||bridge
+Perle|embedded||remote management
+Perle|embedded||terminal server
+Phar Lap|ETS|13|specialized
+PheeNet|embedded||WAP
+Philips|embedded||broadband router
+Philips|embedded||media device
+Philips|embedded||PBX
+Philips|embedded||specialized
+Philips|embedded||WAP
+Phoenix Contact|embedded||specialized
+Pingtel|embedded||VoIP phone
+Pioneer|embedded||media device
+Pirelli|embedded||VoIP phone
+Pirelli|embedded||WAP
+Planet|embedded||broadband router
+Planet|embedded||VoIP adapter
+Planet|embedded||VoIP phone
+Planet|embedded||WAP
+Planet|MicroC/OS-II||VoIP phone
+Polycom|embedded||media device
+Polycom|embedded||VoIP phone
+Polycom|embedded||webcam
+Polycom|pSOS|1.X|webcam
+PORTech|embedded||VoIP adapter
+Precise Software Technologies|MQX||specialized
+Printronix|embedded||printer
+Priva|embedded||specialized
+Promise|embedded||storage-misc
+Proxim|embedded||WAP
+QEMU|QEMU||general purpose
+QNAP|embedded||storage-misc
+QNAP|QTS|4.X|storage-misc
+QNAP|QTS||storage-misc
+QNX|RTOS|4.X|specialized
+QNX|RTOS|6.X|general purpose
+QNX|RTOS|7.X|specialized
+QNX|RTOS||general purpose
+QTech|embedded||switch
+Qualisys|embedded||webcam
+Quantum|embedded||storage-misc
+Quarterdeck|DESQview/X|2.X|general purpose
+Rabbit|embedded||specialized
+RAD Data Communications|embedded||switch
+Radware|APsolute OS|10.X|load balancer
+Raritan|embedded||power-device
+Raritan|embedded||remote management
+RCA|embedded||broadband router
+ReactOS|ReactOS|0.3.X|general purpose
+Red-M|embedded||firewall
+Redback|SmartEdge OS|11.X|router
+Redback|SmartEdge OS|5.X|broadband router
+Redback|SmartEdge OS||broadband router
+Reliable Controls|embedded||specialized
+Repotech|embedded||print server
+Revo|embedded||media device
+RF Code|embedded||specialized
+RF-Space|embedded||specialized
+RGB Spectrum|embedded||media device
+Ricoh|embedded||media device
+Ricoh|embedded||printer
+Rigol Technologies|embedded||specialized
+RIM|BlackBerry|10.X|phone
+RIM|BlackBerry|7.X|phone
+RIM|Tablet OS|2.X|media device
+Rio|embedded||media device
+RISCOS Ltd|RISC OS|4.X|general purpose
+RISCOS Ltd|RISC OS|5.X|general purpose
+RISCOS Ltd|RISC OS|6.X|general purpose
+RISE SICS|uIP||specialized
+Riverbed|embedded||proxy server
+Riverbed|RiOS||specialized
+Roberts|embedded||media device
+Rockwell Automation|embedded||specialized
+Roku|embedded||media device
+RSA|embedded||specialized
+Ruckus|embedded||WAP
+RuggedCom|ROS|3.X|switch
+Ruijie|embedded||switch
+Sagem Communication|embedded||broadband router
+Sagem Communication|embedded||media device
+Sagem Communication|embedded||WAP
+Sagemcom|embedded||bridge
+Sagemcom|embedded||WAP
+Samsung|Bada|1.X|phone
+Samsung|Bada|2.X|phone
+Samsung|embedded||media device
+Samsung|embedded||printer
+Samsung|embedded||VoIP adapter
+Samsung|embedded||VoIP phone
+Samsung|Symbian OS|9.X|phone
+Sandstrom|embedded||media device
+Sanyo|embedded||media device
+Sapling|embedded||specialized
+Satel|embedded||security-misc
+Savin|embedded||printer
+Schneider Electric|embedded||specialized
+Schrack|embedded||power-device
+Schweitzer Engineering|embedded||specialized
+Scientific Atlanta|embedded||broadband router
+SCO|OpenServer|5.X|general purpose
+SCO|OpenServer|6.X|general purpose
+SCO|SCO UNIX|3.X|general purpose
+SCO|UnixWare|2.X|general purpose
+SCO|UnixWare|7.X|general purpose
+SCO|UnixWare|8.X|general purpose
+Seagate|embedded||storage-misc
+Secure Computing|embedded||firewall
+Secure Computing|SecureOS|6.X|firewall
+Secure Computing|SecureOS|7.X|firewall
+SEH|embedded||print server
+Seiko|embedded||bridge
+Senao|embedded||WAP
+Sensatronics|embedded||specialized
+Sequent|DYNIX||general purpose
+SGI|IRIX|4.X|general purpose
+SGI|IRIX|5.X|general purpose
+SGI|IRIX|6.X|general purpose
+Sharp|embedded||printer
+Shenzhen Kinoway|embedded||VoIP adapter
+ShoreTel|embedded||VoIP adapter
+ShoreTel|embedded||VoIP phone
+Siemens|embedded||broadband router
+Siemens|embedded||PBX
+Siemens|embedded||remote management
+Siemens|embedded||specialized
+Siemens|embedded||VoIP adapter
+Siemens|embedded||VoIP phone
+Siemens|embedded||WAP
+Siemens|SINIX||general purpose
+Silicondust|embedded||media device
+Sinus|embedded||WAP
+Sipura|embedded||VoIP adapter
+Sitecom|embedded||print server
+Sitecom|embedded||WAP
+Sling|embedded||media device
+SMA|embedded||power-device
+Smart Electronic|embedded||media device
+Smartlink|embedded||WAP
+SMC|embedded||broadband router
+SMC|embedded||router
+SMC|embedded||switch
+SMC|embedded||WAP
+Snom|embedded||VoIP phone
+SNR|embedded||switch
+Solwise|embedded||broadband router
+SonicWALL|embedded||firewall
+SonicWALL|embedded||proxy server
+SonicWALL|SonicOS|2.X|firewall
+SonicWALL|SonicOS|3.X|firewall
+SonicWALL|SonicOS|4.X|firewall
+SonicWALL|SonicOS|5.X|firewall
+SonicWALL|SonicOS|6.X|firewall
+SonicWALL|SonicOS||firewall
+Sonos|embedded||media device
+Sonus|embedded||VoIP adapter
+Sony|embedded||game console
+Sony|embedded||media device
+Sony|embedded||specialized
+Sony|embedded||webcam
+Sony Ericsson|embedded||phone
+Sony Ericsson|Symbian OS|9.X|phone
+Source Technologies|embedded||printer
+Specialix|embedded||terminal server
+Sphairon|embedded||broadband router
+Star Micronics|embedded||printer
+Star Track|embedded||media device
+Starbridge Networks|embedded||WAP
+Stonewater Control Systems|embedded||specialized
+StorageTek|embedded||router
+StorageTek|embedded||storage-misc
+Stratus|embedded||remote management
+Suga|embedded||specialized
+Sun|embedded||remote management
+Sun|embedded||storage-misc
+Sun|OpenSolaris||general purpose
+Sun|Solaris|10|general purpose
+Sun|Solaris|11|general purpose
+Sun|Solaris|2.X|general purpose
+Sun|Solaris|5.X|general purpose
+Sun|Solaris|7|general purpose
+Sun|Solaris|8|general purpose
+Sun|Solaris|9|general purpose
+Sun|SunOS|10|general purpose
+Sun|SunOS|4.X|general purpose
+SunPower|embedded||power-device
+Supermicro|embedded||remote management
+Syllable|Desktop|0.6.X|general purpose
+Symantec|embedded||firewall
+Symantec|embedded||security-misc
+Symbian OS|Symbian OS|3|phone
+Symbol|embedded||specialized
+Symbol|embedded||switch
+Symbol|embedded||WAP
+Symmetricon|embedded||specialized
+Synology|DiskStation Manager|3.X|storage-misc
+Synology|DiskStation Manager|4.X|storage-misc
+Synology|DiskStation Manager|5.X|storage-misc
+Synology|DiskStation Manager|6.X|storage-misc
+Synology|embedded||router
+Synology|embedded||storage-misc
+T-Home|embedded||media device
+T-Home|embedded||WAP
+T-Marc|embedded||switch
+Tadiran|embedded||VoIP phone
+Tahoe|embedded||power-device
+Tandberg|embedded||media device
+Tandberg|embedded||webcam
+Tandberg|NetBSD||media device
+Tandem|Guardian||general purpose
+TechniSat|embedded||media device
+Tektronix|embedded||printer
+Tektronix|os.350||specialized
+Tektronix|os.350||terminal
+Telco Systems|embedded||bridge
+Teldat|embedded||broadband router
+Telekom Deutschland|embedded||broadband router
+Telekom|embedded||broadband router
+Telekom|embedded||media device
+Telekom|embedded||WAP
+Telewell|embedded||broadband router
+Telex|embedded||bridge
+Telsey|embedded||media device
+Teltronics|embedded||firewall
+TenAsys|iRMX|2.X|specialized
+Tenda|embedded||broadband router
+Tenda|embedded||WAP
+Teradici|embedded||remote management
+Teradici|embedded||terminal
+Terratec|embedded||media device
+Texas Instruments|embedded||specialized
+Thales|embedded||security-misc
+Thecus|embedded||storage-misc
+Thomson|embedded||broadband router
+Thomson|embedded||VoIP phone
+Thomson|embedded||WAP
+Tiandy|embedded||media device
+Tibbo|embedded||specialized
+Tigo Energy|embedded||power-device
+Tintri|Tintri OS|3.X|storage-misc
+TippingPoint|embedded||firewall
+Tizen|Tizen||specialized
+Topfield|embedded||media device
+Toptech|embedded||terminal server
+Toshiba|4690 OS|6.X|specialized
+Toshiba|embedded||general purpose
+Toshiba|embedded||media device
+Toshiba|embedded||printer
+TP-LINK|embedded||broadband router
+TP-Link|embedded||broadband router
+TP-LINK|embedded||print server
+TP-LINK|embedded||switch
+TP-LINK|embedded||WAP
+Trane|embedded||specialized
+TransAct|embedded||printer
+Tranzeo|embedded||WAP
+Trapeze Networks|embedded||WAP
+TRENDnet|embedded||broadband router
+TRENDnet|embedded||print server
+TRENDnet|embedded||router
+TRENDnet|embedded||WAP
+TRENDnet|embedded||webcam
+Tripp Lite|embedded||power-device
+Tripp Lite|NetOS|7.X|specialized
+Tut Systems|embedded||router
+Tyco|embedded||switch
+Ubee|embedded||WAP
+Ubicom|ipOS||specialized
+Ubiquiti|AirOS|5.X|WAP
+Ubiquiti|AirOS||WAP
+Ubiquiti|embedded||router
+Ubiquiti|embedded||switch
+Ubiquiti|embedded||WAP
+Ubiquiti|embedded||webcam
+Universal Devices|embedded||media device
+USRobotics|embedded||broadband router
+USRobotics|embedded||router
+USRobotics|embedded||WAP
+UTStarcom|embedded||broadband router
+UTStarcom|embedded||VoIP phone
+Vantage|embedded||media device
+VBrick|embedded||media device
+Vegastream|embedded||VoIP adapter
+Viasat|embedded||broadband router
+Vilar|embedded||webcam
+VIPA|embedded||specialized
+Virdi|embedded||security-misc
+Visual Network Systems|embedded||specialized
+VMware|ESX Server|3.X|specialized
+VMware|ESX Server|4.X|specialized
+VMware|ESX Server|5.X|specialized
+VMware|ESXi|3.X|specialized
+VMware|ESXi|4.X|specialized
+VMware|ESXi|5.X|specialized
+VMware|ESXi|6.X|specialized
+VMware|Player||specialized
+Vocality|embedded||VoIP adapter
+Vodafone|embedded||WAP
+Vodavi|embedded||PBX
+Vonage|embedded||VoIP adapter
+VTrak|embedded||storage-misc
+W&T|embedded||bridge
+W&T|embedded||specialized
+WAGO|embedded||specialized
+Wago Kontakttechnik|embedded||specialized
+Walker Technologies|embedded||bridge
+WatchGuard|embedded||firewall
+WatchGuard|embedded||WAP
+WatchGuard|Fireware|11.X|firewall
+WatchGuard|Fireware|XTM|firewall
+WebSense|embedded||proxy server
+Welltech|embedded||VoIP adapter
+Westell|embedded||broadband router
+Westermo|embedded||bridge
+Western Digital|embedded||media device
+Western Digital|embedded||storage-misc
+Wind River|pSOSystem||specialized
+Wind River|VxWorks|12.X|general purpose
+Wind River|VxWorks|12.X|router
+Wind River|VxWorks|5.X|broadband router
+Wind River|VxWorks|5.X|general purpose
+Wind River|VxWorks|5.X|PBX
+Wind River|VxWorks|5.X|router
+Wind River|VxWorks|5.X|specialized
+Wind River|VxWorks|5.X|WAP
+Wind River|VxWorks|6.X|general purpose
+Wind River|VxWorks|6.X|storage-misc
+Wind River|VxWorks|7.X|general purpose
+Wind River|VxWorks||broadband router
+Wind River|VxWorks||general purpose
+Wind River|VxWorks||printer
+Wind River|VxWorks||storage-misc
+Wind River|VxWorks||VoIP adapter
+Wind River|VxWorks||VoIP phone
+Wind River|VxWorks||WAP
+WIZnet|embedded||specialized
+World Wide Packets|embedded||switch
+WowWee|embedded||webcam
+Wyse|embedded||terminal
+Wyse|ThinOS|5.X|terminal
+Wyse|ThinOS|6.X|terminal
+Wyse|ThinOS|7.X|terminal
+Wyse|ThinOS|8.X|terminal
+Wyse|ThinOS||remote management
+Wyse|ThinOS||terminal
+XAVi|embedded||broadband router
+XAVi|embedded||WAP
+Xerox|embedded||printer
+XEU.com|eComStation|2.X|general purpose
+Xiaomi|embedded||WAP
+Xirrus|ArrayOS|3.X|WAP
+XMOS|embedded||specialized
+Xylan|embedded||switch
+Xyplex|embedded||terminal server
+Yamaha|embedded||media device
+Yamaha|embedded||router
+Yealink|embedded||VoIP phone
+Zebra|embedded||printer
+Zelax|embedded||router
+Zerto|embedded||specialized
+Zhone|embedded||broadband router
+Zipato|embedded||specialized
+ZKTeco|embedded||specialized
+ZoneAlarm|embedded||WAP
+Zoom|embedded||broadband router
+ZTE|embedded||broadband router
+ZTE|embedded||WAP
+Zyfer|embedded||specialized
+ZyXEL|embedded||broadband router
+ZyXEL|embedded||media device
+ZyXEL|embedded||printer
+ZyXEL|embedded||router
+ZyXEL|embedded||storage-misc
+ZyXEL|embedded||switch
+ZyXEL|embedded||WAP
+ZyXEL|ZLD|3.X|security-misc
+ZyXEL|ZyNOS|2.X|broadband router
+ZyXEL|ZyNOS|2.X|firewall
+ZyXEL|ZyNOS|2.X|router
+ZyXEL|ZyNOS|3.X|broadband router
+ZyXEL|ZyNOS|3.X|firewall
+ZyXEL|ZyNOS|3.X|switch
+ZyXEL|ZyNOS|3.X|WAP
+ZyXEL|ZyNOS|4.X|firewall
+ZyXEL|ZyNOS||broadband router
+ZyXEL|ZyNOS||firewall
