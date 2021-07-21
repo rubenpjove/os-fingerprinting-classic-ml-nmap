@@ -5,6 +5,7 @@ from os import replace
 import re
 import pandas as pd
 import numpy as np
+import itertools
 from nmap_db_parser_responses_format import *
 
 # %%
@@ -27,142 +28,142 @@ probes_sent_dict = {
 test_parser = re.compile(r'(?P<key>.*)=(?P<value>.*)')
 
 fingerprint_template = {
-    'Class.vendor':np.nan,
-    'Class.OSfamily':np.nan,
-    'Class.OSgen':np.nan,
-    'Class.device':np.nan,
+    'Class.vendor':[np.nan],
+    'Class.OSfamily':[np.nan],
+    'Class.OSgen':[np.nan],
+    'Class.device':[np.nan],
 
-    'SEQ.SP':np.nan,
-    'SEQ.GCD':np.nan,
-    'SEQ.ISR':np.nan,
-    'SEQ.TI':np.nan,
-    'SEQ.CI':np.nan,
-    'SEQ.II':np.nan,
-    'SEQ.SS':np.nan,
-    'SEQ.TS':np.nan,
+    'SEQ.SP':[np.nan],
+    'SEQ.GCD':[np.nan],
+    'SEQ.ISR':[np.nan],
+    'SEQ.TI':[np.nan],
+    'SEQ.CI':[np.nan],
+    'SEQ.II':[np.nan],
+    'SEQ.SS':[np.nan],
+    'SEQ.TS':[np.nan],
 
-    'OPS.O1':np.nan,
-    'OPS.O2':np.nan,
-    'OPS.O3':np.nan,
-    'OPS.O4':np.nan,
-    'OPS.O5':np.nan,
-    'OPS.O6':np.nan,
+    'OPS.O1':[np.nan],
+    'OPS.O2':[np.nan],
+    'OPS.O3':[np.nan],
+    'OPS.O4':[np.nan],
+    'OPS.O5':[np.nan],
+    'OPS.O6':[np.nan],
 
-    'WIN.W1':np.nan,
-    'WIN.W2':np.nan,
-    'WIN.W3':np.nan,
-    'WIN.W4':np.nan,
-    'WIN.W5':np.nan,
-    'WIN.W6':np.nan,
+    'WIN.W1':[np.nan],
+    'WIN.W2':[np.nan],
+    'WIN.W3':[np.nan],
+    'WIN.W4':[np.nan],
+    'WIN.W5':[np.nan],
+    'WIN.W6':[np.nan],
 
-    'ECN.R':np.nan,
-    'ECN.DF':np.nan,
-    'ECN.T':np.nan,
-    'ECN.TG':np.nan,
-    'ECN.W':np.nan,
-    'ECN.O':np.nan,
-    'ECN.CC':np.nan,
-    'ECN.Q':np.nan,
+    'ECN.R':[np.nan],
+    'ECN.DF':[np.nan],
+    'ECN.T':[np.nan],
+    'ECN.TG':[np.nan],
+    'ECN.W':[np.nan],
+    'ECN.O':[np.nan],
+    'ECN.CC':[np.nan],
+    'ECN.Q':[np.nan],
 
-    'T1.R':np.nan,
-    'T1.DF':np.nan,
-    'T1.T':np.nan,
-    'T1.TG':np.nan,
-    'T1.S':np.nan,
-    'T1.A':np.nan,
-    'T1.F':np.nan,
-    'T1.RD':np.nan,
-    'T1.Q':np.nan,
+    'T1.R':[np.nan],
+    'T1.DF':[np.nan],
+    'T1.T':[np.nan],
+    'T1.TG':[np.nan],
+    'T1.S':[np.nan],
+    'T1.A':[np.nan],
+    'T1.F':[np.nan],
+    'T1.RD':[np.nan],
+    'T1.Q':[np.nan],
 
-    'T2.R':np.nan,
-    'T2.DF':np.nan,
-    'T2.T':np.nan,
-    'T2.TG':np.nan,
-    'T2.W':np.nan,
-    'T2.S':np.nan,
-    'T2.A':np.nan,
-    'T2.F':np.nan,
-    'T2.O':np.nan,
-    'T2.RD':np.nan,
-    'T2.Q':np.nan,
+    'T2.R':[np.nan],
+    'T2.DF':[np.nan],
+    'T2.T':[np.nan],
+    'T2.TG':[np.nan],
+    'T2.W':[np.nan],
+    'T2.S':[np.nan],
+    'T2.A':[np.nan],
+    'T2.F':[np.nan],
+    'T2.O':[np.nan],
+    'T2.RD':[np.nan],
+    'T2.Q':[np.nan],
 
-    'T3.R':np.nan,
-    'T3.DF':np.nan,
-    'T3.T':np.nan,
-    'T3.TG':np.nan,
-    'T3.W':np.nan,
-    'T3.S':np.nan,
-    'T3.A':np.nan,
-    'T3.F':np.nan,
-    'T3.O':np.nan,
-    'T3.RD':np.nan,
-    'T3.Q':np.nan,
+    'T3.R':[np.nan],
+    'T3.DF':[np.nan],
+    'T3.T':[np.nan],
+    'T3.TG':[np.nan],
+    'T3.W':[np.nan],
+    'T3.S':[np.nan],
+    'T3.A':[np.nan],
+    'T3.F':[np.nan],
+    'T3.O':[np.nan],
+    'T3.RD':[np.nan],
+    'T3.Q':[np.nan],
 
-    'T4.R':np.nan,
-    'T4.DF':np.nan,
-    'T4.T':np.nan,
-    'T4.TG':np.nan,
-    'T4.W':np.nan,
-    'T4.S':np.nan,
-    'T4.A':np.nan,
-    'T4.F':np.nan,
-    'T4.O':np.nan,
-    'T4.RD':np.nan,
-    'T4.Q':np.nan,
+    'T4.R':[np.nan],
+    'T4.DF':[np.nan],
+    'T4.T':[np.nan],
+    'T4.TG':[np.nan],
+    'T4.W':[np.nan],
+    'T4.S':[np.nan],
+    'T4.A':[np.nan],
+    'T4.F':[np.nan],
+    'T4.O':[np.nan],
+    'T4.RD':[np.nan],
+    'T4.Q':[np.nan],
 
-    'T5.R':np.nan,
-    'T5.DF':np.nan,
-    'T5.T':np.nan,
-    'T5.TG':np.nan,
-    'T5.W':np.nan,
-    'T5.S':np.nan,
-    'T5.A':np.nan,
-    'T5.F':np.nan,
-    'T5.O':np.nan,
-    'T5.RD':np.nan,
-    'T5.Q':np.nan,
+    'T5.R':[np.nan],
+    'T5.DF':[np.nan],
+    'T5.T':[np.nan],
+    'T5.TG':[np.nan],
+    'T5.W':[np.nan],
+    'T5.S':[np.nan],
+    'T5.A':[np.nan],
+    'T5.F':[np.nan],
+    'T5.O':[np.nan],
+    'T5.RD':[np.nan],
+    'T5.Q':[np.nan],
 
-    'T6.R':np.nan,
-    'T6.DF':np.nan,
-    'T6.T':np.nan,
-    'T6.TG':np.nan,
-    'T6.W':np.nan,
-    'T6.S':np.nan,
-    'T6.A':np.nan,
-    'T6.F':np.nan,
-    'T6.O':np.nan,
-    'T6.RD':np.nan,
-    'T6.Q':np.nan,
+    'T6.R':[np.nan],
+    'T6.DF':[np.nan],
+    'T6.T':[np.nan],
+    'T6.TG':[np.nan],
+    'T6.W':[np.nan],
+    'T6.S':[np.nan],
+    'T6.A':[np.nan],
+    'T6.F':[np.nan],
+    'T6.O':[np.nan],
+    'T6.RD':[np.nan],
+    'T6.Q':[np.nan],
 
-    'T7.R':np.nan,
-    'T7.DF':np.nan,
-    'T7.T':np.nan,
-    'T7.TG':np.nan,
-    'T7.W':np.nan,
-    'T7.S':np.nan,
-    'T7.A':np.nan,
-    'T7.F':np.nan,
-    'T7.O':np.nan,
-    'T7.RD':np.nan,
-    'T7.Q':np.nan,
+    'T7.R':[np.nan],
+    'T7.DF':[np.nan],
+    'T7.T':[np.nan],
+    'T7.TG':[np.nan],
+    'T7.W':[np.nan],
+    'T7.S':[np.nan],
+    'T7.A':[np.nan],
+    'T7.F':[np.nan],
+    'T7.O':[np.nan],
+    'T7.RD':[np.nan],
+    'T7.Q':[np.nan],
 
-    'U1.R':np.nan,
-    'U1.DF':np.nan,
-    'U1.T':np.nan,
-    'U1.TG':np.nan,
-    'U1.IPL':np.nan,
-    'U1.UN':np.nan,
-    'U1.RIPL':np.nan,
-    'U1.RID':np.nan,
-    'U1.RIPCK':np.nan,
-    'U1.RUCK':np.nan,
-    'U1.RUD':np.nan,
+    'U1.R':[np.nan],
+    'U1.DF':[np.nan],
+    'U1.T':[np.nan],
+    'U1.TG':[np.nan],
+    'U1.IPL':[np.nan],
+    'U1.UN':[np.nan],
+    'U1.RIPL':[np.nan],
+    'U1.RID':[np.nan],
+    'U1.RIPCK':[np.nan],
+    'U1.RUCK':[np.nan],
+    'U1.RUD':[np.nan],
 
-    'IE.R':np.nan,
-    'IE.DFI':np.nan,
-    'IE.T':np.nan,
-    'IE.TG':np.nan,
-    'IE.CD':np.nan,
+    'IE.R':[np.nan],
+    'IE.DFI':[np.nan],
+    'IE.T':[np.nan],
+    'IE.TG':[np.nan],
+    'IE.CD':[np.nan],
 }
 
 responses_format_dict = {
@@ -318,19 +319,26 @@ def _parse_probe(line):
 
 
 # %%
-def _parse_entry_class(entry_class, entry):
+def _parse_entry_class(entry_class):
     
     entry_class = entry_class.replace("Class",'').replace(" ",'')
 
     entry_class = entry_class.split("|")
 
-    entry['Class.vendor'] = entry_class[0]
+    """ entry['Class.vendor'] = entry_class[0]
     entry['Class.OSfamily'] = entry_class[1]
     entry['Class.OSgen'] = entry_class[2]
-    entry['Class.device'] = entry_class[3]
+    entry['Class.device'] = entry_class[3] """
 
-    return entry
+    return [entry_class[0],entry_class[1],entry_class[2],entry_class[3]]
+
+
+# %%
+def _parse_value(value):
     
+    return_value  = value.replace(" ",'').split('|')
+
+    return return_value
 
 
 # %%
@@ -342,7 +350,7 @@ def _parse_fingerprint(fingerprint,dataset):
     probes = []
     for line in fingerprint:
         if line.startswith("Class"):
-            entry_classes.append(line)
+            entry_classes.append(_parse_entry_class(line))
         else:
             probes.append(line)
 
@@ -363,14 +371,24 @@ def _parse_fingerprint(fingerprint,dataset):
                     if id in responses_format_dict:
                         test_value = responses_format_dict[id](test_value)
 
+                    test_value = _parse_value(test_value)
+
                     local_template[id] = test_value
 
-    for entry_class in entry_classes:
-        entry = local_template.copy()
-        
-        entry = _parse_entry_class(entry_class, entry)
+    aux = list(local_template.values())
+    combinations = list(itertools.product(*aux))
 
-        dataset.append(entry)
+    """ combinations = [list(local_template.values())] """
+
+    for entry_class in entry_classes:
+        for combination in combinations:
+            entry = list(combination)
+            #entry = combination
+            entry[0] = entry_class[0]
+            entry[1] = entry_class[1]
+            entry[2] = entry_class[2]
+            entry[3] = entry_class[3]
+            dataset.append(entry)
 
     
 
@@ -390,5 +408,5 @@ def parse_database(filepath):
 
 
 # %%
-dataset = parse_database("dbaux.txt")
-print(dataset)
+""" dataset = parse_database("db6.txt")
+print(dataset) """
