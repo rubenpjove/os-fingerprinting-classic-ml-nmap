@@ -1,7 +1,7 @@
 # To add a new cell, type '# %%'
 # To add a new markdown cell, type '# %% [markdown]'
 # %%
-from os import replace
+import sys
 import re
 import pandas as pd
 import numpy as np
@@ -172,9 +172,9 @@ responses_format_dict = {
     # 'Class.OSgen':np.nan,
     # 'Class.device':np.nan,
 
-    # 'SEQ.SP': SEQ_SP,  # <hex_value>
-    # 'SEQ.GCD': SEQ_GCD,  # <hex_value>
-    # 'SEQ.ISR': SEQ_ISR,  # <hex_value>
+    'SEQ.SP': hex_value,  # <hex_value>
+    'SEQ.GCD': hex_value,  # <hex_value>
+    'SEQ.ISR': hex_value,  # <hex_value>
 
     # 'SEQ.TI': SEQ_TI, #
     # 'SEQ.CI': SEQ_CI, # Z , RD , RI , BI , I , <hex_value>
@@ -186,30 +186,30 @@ responses_format_dict = {
     # 'OPS.O1':np.nan, # 
     # 'OPS.O2':np.nan, # 
     # 'OPS.O3':np.nan, # Order of the TCP header options
-    # 'OPS.O4':np.nan, # L , N , M<hex_value> , W<hex_value> , T[01]{2} , S
+    # 'OPS.O4':np.nan, # (ORDER) L , N , M<hex_value> , W<hex_value> , T[01]{2} , S
     # 'OPS.O5':np.nan, #
     # 'OPS.O6':np.nan, #
 
-    # 'WIN.W1':np.nan, #
-    # 'WIN.W2':np.nan, #
-    # 'WIN.W3':np.nan, # <hex_value>
-    # 'WIN.W4':np.nan, #
-    # 'WIN.W5':np.nan, #
-    # 'WIN.W6':np.nan, #
+    'WIN.W1':hex_value, #
+    'WIN.W2':hex_value, #
+    'WIN.W3':hex_value, # <hex_value>
+    'WIN.W4':hex_value, #
+    'WIN.W5':hex_value, #
+    'WIN.W6':hex_value, #
 
     # 'ECN.R':np.nan, # Y , N
     # 'ECN.DF':np.nan, # Y , N
-    # 'ECN.T':np.nan, # <hex_value>
-    # 'ECN.TG':np.nan, # <hex_value>
-    # 'ECN.W':np.nan, # WIN
-    # 'ECN.O':np.nan, # OPS
+    'ECN.T':hex_value, # <hex_value>
+    'ECN.TG':hex_value, # <hex_value>
+    'ECN.W':hex_value, # <hex_value>
+    # 'ECN.O':np.nan, # # (ORDER) L , N , M<hex_value> , W<hex_value> , T[01]{2} , S
     # 'ECN.CC':np.nan, # N , S , Y , O
     # 'ECN.Q':np.nan, # [RU]{2}
 
     # 'T1.R':np.nan, # Y , N
     # 'T1.DF':np.nan, # Y , N
-    # 'T1.T':np.nan, # <hex_value>
-    # 'T1.TG':np.nan, # <hex_value>
+    'T1.T':hex_value, # <hex_value>
+    'T1.TG':hex_value, # <hex_value>
     # 'T1.S':np.nan, # Z , A , A+ , O
     # 'T1.A':np.nan, # Z , S , S+ , O
     # 'T1.F':np.nan, # E , U , A , P , R , S , F (in this order)
@@ -218,82 +218,82 @@ responses_format_dict = {
 
     # 'T2.R':np.nan, # Y , N
     # 'T2.DF':np.nan, # Y , N
-    # 'T2.T':np.nan, # <hex_value>
-    # 'T2.TG':np.nan, # <hex_value>
-    # 'T2.W':np.nan, # WIN
+    'T2.T':hex_value, # <hex_value>
+    'T2.TG':hex_value, # <hex_value>
+    'T2.W':hex_value, # <hex_value>
     # 'T2.S':np.nan, # Z , A , A+ , O
     # 'T2.A':np.nan, # Z , S , S+ , O
     # 'T2.F':np.nan, # E , U , A , P , R , S , F (in this order)
-    # 'T2.O':np.nan, # OPS
+    # 'T2.O':np.nan, # # (ORDER) L , N , M<hex_value> , W<hex_value> , T[01]{2} , S
     # 'T2.RD':np.nan, # 0 , <CRC32_hex_value>
     # 'T2.Q':np.nan, # [RU]{2}
 
     # 'T3.R':np.nan, # Y , N
     # 'T3.DF':np.nan, # Y , N
-    # 'T3.T':np.nan, # <hex_value>
-    # 'T3.TG':np.nan, # <hex_value>
-    # 'T3.W':np.nan, # WIN
+    'T3.T':hex_value, # <hex_value>
+    'T3.TG':hex_value, # <hex_value>
+    'T3.W':hex_value, # <hex_value>
     # 'T3.S':np.nan, # Z , A , A+ , O
     # 'T3.A':np.nan, # Z , S , S+ , O
     # 'T3.F':np.nan, # E , U , A , P , R , S , F (in this order)
-    # 'T3.O':np.nan, # OPS
+    # 'T3.O':np.nan, # # (ORDER) L , N , M<hex_value> , W<hex_value> , T[01]{2} , S
     # 'T3.RD':np.nan, # 0 , <CRC32_hex_value>
     # 'T3.Q':np.nan, # [RU]{2}
 
     # 'T4.R':np.nan, # Y , N
     # 'T4.DF':np.nan, # Y , N
-    # 'T4.T':np.nan, # <hex_value>
-    # 'T4.TG':np.nan, # <hex_value>
-    # 'T4.W':np.nan, # WIN
+    'T4.T':hex_value, # <hex_value>
+    'T4.TG':hex_value, # <hex_value>
+    'T4.W':hex_value, # <hex_value>
     # 'T4.S':np.nan, # Z , A , A+ , O
     # 'T4.A':np.nan, # Z , S , S+ , O
     # 'T4.F':np.nan, # E , U , A , P , R , S , F (in this order)
-    # 'T4.O':np.nan, # OPS
+    # 'T4.O':np.nan, # # (ORDER) L , N , M<hex_value> , W<hex_value> , T[01]{2} , S
     # 'T4.RD':np.nan, # 0 , <CRC32_hex_value>
     # 'T4.Q':np.nan, # [RU]{2}
 
     # 'T5.R':np.nan, # Y , N
     # 'T5.DF':np.nan, # Y , N
-    # 'T5.T':np.nan, # <hex_value>
-    # 'T5.TG':np.nan, # <hex_value>
-    # 'T5.W':np.nan, # WIN
+    'T5.T':hex_value, # <hex_value>
+    'T5.TG':hex_value, # <hex_value>
+    'T5.W':hex_value, # <hex_value>
     # 'T5.S':np.nan, # Z , A , A+ , O
     # 'T5.A':np.nan, # Z , S , S+ , O
     # 'T5.F':np.nan, # E , U , A , P , R , S , F (in this order)
-    # 'T5.O':np.nan, # OPS
+    # 'T5.O':np.nan, # # (ORDER) L , N , M<hex_value> , W<hex_value> , T[01]{2} , S
     # 'T5.RD':np.nan, # 0 , <CRC32_hex_value>
     # 'T5.Q':np.nan, # [RU]{2}
 
     # 'T6.R':np.nan, # Y , N
     # 'T6.DF':np.nan, # Y , N
-    # 'T6.T':np.nan, # <hex_value>
-    # 'T6.TG':np.nan, # <hex_value>
-    # 'T6.W':np.nan, # WIN
+    'T6.T':hex_value, # <hex_value>
+    'T6.TG':hex_value, # <hex_value>
+    'T6.W':hex_value, # <hex_value>
     # 'T6.S':np.nan, # Z , A , A+ , O
     # 'T6.A':np.nan, # Z , S , S+ , O
     # 'T6.F':np.nan, # E , U , A , P , R , S , F (in this order)
-    # 'T6.O':np.nan, # OPS
+    # 'T6.O':np.nan, # # (ORDER) L , N , M<hex_value> , W<hex_value> , T[01]{2} , S
     # 'T6.RD':np.nan, # 0 , <CRC32_hex_value>
     # 'T6.Q':np.nan, # [RU]{2}
 
     # 'T7.R':np.nan, # Y , N
     # 'T7.DF':np.nan, # Y , N
-    # 'T7.T':np.nan, # <hex_value>
-    # 'T7.TG':np.nan, # <hex_value>
-    # 'T7.W':np.nan, # WIN
+    'T7.T':hex_value, # <hex_value>
+    'T7.TG':hex_value, # <hex_value>
+    'T7.W':hex_value, # <hex_value>
     # 'T7.S':np.nan, # Z , A , A+ , O
     # 'T7.A':np.nan, # Z , S , S+ , O
     # 'T7.F':np.nan, # E , U , A , P , R , S , F (in this order)
-    # 'T7.O':np.nan, # OPS
+    # 'T7.O':np.nan, # # (ORDER) L , N , M<hex_value> , W<hex_value> , T[01]{2} , S
     # 'T7.RD':np.nan, # 0 , <CRC32_hex_value>
     # 'T7.Q':np.nan, # [RU]{2}
 
     # 'U1.R':np.nan, # Y , N
     # 'U1.DF':np.nan, # Y , N
-    # 'U1.T':np.nan, # <hex_value>
-    # 'U1.TG':np.nan, # <hex_value>
-    # 'U1.IPL':np.nan, # <hex_value>
-    # 'U1.UN':np.nan, # <hex_value>
+    'U1.T':hex_value, # <hex_value>
+    'U1.TG':hex_value, # <hex_value>
+    'U1.IPL':hex_value, # <hex_value>
+    'U1.UN':hex_value, # <hex_value>
     # 'U1.RIPL':np.nan, # <hex_value> , G
     # 'U1.RID':np.nan, # G , <hex_value>
     # 'U1.RIPCK':np.nan, # G , Z , I
@@ -302,10 +302,45 @@ responses_format_dict = {
 
     # 'IE.R':np.nan, # Y , N
     # 'IE.DFI':np.nan, # N , S , Y , O
-    # 'IE.T':np.nan, # <hex_value>
-    # 'IE.TG':np.nan, # <hex_value>
+    'IE.T':hex_value, # <hex_value>
+    'IE.TG':hex_value, # <hex_value>
     # 'IE.CD':np.nan, # Z , S , <hex_value> , O
 }
+
+# %%
+def _debug_output(dataset,f_added,f_skkipped,comb_added,comb_skkipped,classes_skkipped):
+    print("\nDATASET:")
+    print("Size (Bytes / MB):")
+    print(sys.getsizeof(dataset), end=" / ")
+    print(sys.getsizeof(dataset)/1048576)
+    print("Rows:")
+    print(f'{len(dataset):,}')
+    print("Columns:") 
+    columns=len(dataset[0])
+    not_equal=False
+    for row in dataset:
+        if len(row)!=columns:
+            not_equal=True
+    if not_equal:
+        print("Not same columns in all rows")
+    else:
+        print(columns)
+    print()
+    print("FINGERPRINTS: {:,}".format(f_added+f_skkipped))
+    print("Added:")
+    print(f_added)
+    print("Skkipped: {}".format(f_skkipped))
+    print()
+    for clas in sorted(classes_skkipped, key=lambda tup: tup[1]):
+        print('{0: <45}{1:,}'.format(clas[0],clas[1]))
+    print()
+    print("COMBINATIONS: {:,}".format(comb_added+comb_skkipped))
+    print("Rows:")
+    print(f'{len(dataset):,}')
+    print("Combinations added:")
+    print(f'{comb_added:,}')
+    print("Combinations skipped:")
+    print(f'{comb_skkipped:,}')
 
 # %%
 def _parse_probe(line):
@@ -320,29 +355,20 @@ def _parse_probe(line):
 
 # %%
 def _parse_entry_class(entry_class):
-    
-    entry_class = entry_class.replace("Class",'').replace(" ",'')
 
     entry_class = entry_class.split("|")
-
-    """ entry['Class.vendor'] = entry_class[0]
-    entry['Class.OSfamily'] = entry_class[1]
-    entry['Class.OSgen'] = entry_class[2]
-    entry['Class.device'] = entry_class[3] """
 
     return [entry_class[0],entry_class[1],entry_class[2],entry_class[3]]
 
 
 # %%
-def _parse_value(value):
+def _parse_value(in_value):
     
-    return_value  = value.replace(" ",'').split('|')
-
-    return return_value
+    return in_value.replace(" ",'').split('|')
 
 
 # %%
-def _parse_fingerprint(fingerprint,dataset):
+def _parse_fingerprint(fingerprint,dataset,max_comb,in_classes):
 
     fingerprint = [line for line in fingerprint if line[0]!="#" and not line.startswith("Fingerprint") and not line.startswith("CPE")]
 
@@ -350,7 +376,9 @@ def _parse_fingerprint(fingerprint,dataset):
     probes = []
     for line in fingerprint:
         if line.startswith("Class"):
-            entry_classes.append(_parse_entry_class(line))
+            line = line.replace("Class",'').replace(" ",'')
+            if in_classes is None or line in in_classes:
+                entry_classes.append(_parse_entry_class(line))
         else:
             probes.append(line)
 
@@ -368,45 +396,93 @@ def _parse_fingerprint(fingerprint,dataset):
                     test_value = match.group('value')
                     id = probe_key + "." + test_key
 
-                    if id in responses_format_dict:
-                        test_value = responses_format_dict[id](test_value)
-
                     test_value = _parse_value(test_value)
 
+                    if not isinstance(test_value,list):
+                        test_value=[test_value]
+
+                    if id in responses_format_dict:
+                        test_value = [responses_format_dict[id](cell) for cell in test_value]
+
                     local_template[id] = test_value
+                else:
+                    if test!="":
+                        raise Exception("The test does not exist")
 
     aux = list(local_template.values())
-    combinations = list(itertools.product(*aux))
 
-    """ combinations = [list(local_template.values())] """
+    number_of_options = 1
+    for value in aux:
+        number_of_options*=len(value)
+
+    if number_of_options > max_comb:
+        return 0,len(entry_classes),0,number_of_options*(len(entry_classes)),[(entry[0]+" "+entry[1]+" "+entry[2]+" "+entry[3],number_of_options*(len(entry_classes))) for entry in entry_classes]
+
+    combinations = list(itertools.product(*aux))
 
     for entry_class in entry_classes:
         for combination in combinations:
-            entry = list(combination)
-            #entry = combination
-            entry[0] = entry_class[0]
-            entry[1] = entry_class[1]
-            entry[2] = entry_class[2]
-            entry[3] = entry_class[3]
-            dataset.append(entry)
+            combination = list(combination)
+            combination[0] = entry_class[0]
+            combination[1] = entry_class[1]
+            combination[2] = entry_class[2]
+            combination[3] = entry_class[3]
+            dataset.append(combination)
+
+    return len(entry_classes),0,number_of_options*len(entry_classes),0,[]
 
     
 
 # %%
-def parse_database(filepath):
+def parse_database(filepath,max_comb,classes,debug):
 
     with open(filepath, 'r') as database_file:
         dataset = []
         
         fingerprints = database_file.read().split('\n\n')
 
+        count=1
+        f_added=0
+        f_skkipped=0
+        comb_added=0
+        comb_skkipped=0
+        classes_skkipped=[]
         for fingerprint in fingerprints:
         
-            _parse_fingerprint(fingerprint.splitlines(),dataset)
+            aux1, aux2, aux3, aux4, aux5 = _parse_fingerprint(fingerprint.splitlines(),dataset,max_comb,classes)
+            f_added+=aux1
+            f_skkipped+=aux2
+            comb_added+=aux3
+            comb_skkipped+=aux4
+            for value in aux5:
+                classes_skkipped.append(value) 
+            count+=1
+            
+            if debug:
+                if count % 100 == 0:
+                    print("Fingerprint number -> {}".format(count))
 
-    return pd.DataFrame(dataset)
+    if debug:
+        print(f'{"Fingerprint parser DONE": <200} ')
+        _debug_output(dataset,f_added,f_skkipped,comb_added,comb_skkipped,classes_skkipped)
+
+    #return pd.DataFrame(dataset)
+    return dataset
 
 
 # %%
-""" dataset = parse_database("db6.txt")
-print(dataset) """
+def parse_in_classes(filepath):
+    with open(filepath, 'r') as database_file:
+        classes = database_file.read().split('\n')
+
+        in_classes=[]
+        for clas in classes:
+            in_classes.append(clas)
+
+    return in_classes
+# %%
+# classes_in = parse_in_classes("os-classes-db79-IN.txt")
+# dataset = parse_database("db7.9.txt",100000,classes_in,True)
+# df = pd.DataFrame(dataset)
+# print()
+# print(dataset)
