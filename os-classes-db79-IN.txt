@@ -205,5 +205,3 @@ Sun|Solaris|5.X|generalpurpose
 Sun|Solaris|7|generalpurpose
 Sun|Solaris|8|generalpurpose
 Sun|Solaris|9|generalpurpose
-Sun|SunOS|10|generalpurpose
-Sun|SunOS|4.X|generalpurpose
