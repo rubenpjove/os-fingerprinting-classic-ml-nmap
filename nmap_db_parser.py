@@ -539,15 +539,3 @@ def parse_in_classes(filepath):
             in_classes.append(clas)
 
     return in_classes
-
-
-#  %%
-# classes_in = parse_in_classes("os-classes-db79-IN.txt")
-# start = time.time()
-# dataset, column_names = parse_database("db7.9.txt",1000,classes_in,True)
-# end = time.time()
-# print(f'TIME -> {end - start}')
-# print(column_names)
-# print(len(column_names))
-# df = pd.DataFrame(dataset)
-# print(df.head())
